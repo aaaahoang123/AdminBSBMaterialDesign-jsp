@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <servlet>
+        <servlet-name>Index</servlet-name>
+        <servlet-class>controller.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Index</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PagesProfile</servlet-name>
+        <servlet-class>controller.PagesProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PagesProfile</servlet-name>
+        <url-pattern>/pages-profile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TableBasic</servlet-name>
+        <servlet-class>controller.TableBasicServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TableBasic</servlet-name>
+        <url-pattern>/table-basic</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IconFontawesome</servlet-name>
+        <servlet-class>controller.IconFontawesomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IconFontawesome</servlet-name>
+        <url-pattern>/icon-fontawesome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MapGoogle</servlet-name>
+        <servlet-class>controller.MapGoogleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MapGoogle</servlet-name>
+        <url-pattern>/map-google</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PagesBlank</servlet-name>
+        <servlet-class>controller.PagesBlankServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PagesBlank</servlet-name>
+        <url-pattern>/pages-blank</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PagesError</servlet-name>
+        <servlet-class>controller.PagesErrorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PagesError</servlet-name>
+        <url-pattern>/pages-error-404</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>_ah_default</servlet-name>
+        <url-pattern>/assets/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>_ah_default</servlet-name>
+        <url-pattern>/css/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>_ah_default</servlet-name>
+        <url-pattern>/js/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>_ah_default</servlet-name>
+        <url-pattern>/scss/*</url-pattern>
+    </servlet-mapping>
+</web-app>
