@@ -72,6 +72,7 @@ public class UIServlet extends Viewer {
                 break;
             case "/notifications":
                 es.add("plugins/bootstrap-notify/bootstrap-notify.js");
+                es.add("js/pages/ui/notifications.js");
                 responseView(req, resp, "Notifications", "/pages/ui/notifications.jsp", es, ec);
                 break;
             case "/pagination":
