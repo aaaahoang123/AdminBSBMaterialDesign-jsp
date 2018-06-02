@@ -224,86 +224,86 @@
             </div>
         </div>
     </div>
+    <!-- Align Links -->
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>
+                        ALIGNED LINKS
+                        <small>Alternatively, you can align each link to the sides:</small>
+                    </h2>
+                    <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="javascript:void(0);">Action</a></li>
+                                <li><a href="javascript:void(0);">Another action</a></li>
+                                <li><a href="javascript:void(0);">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <nav>
+                        <ul class="pager">
+                            <li class="previous">
+                                <a href="javascript:void(0);" class="waves-effect"><span aria-hidden="true">&larr;</span> Older</a>
+                            </li>
+                            <li class="next">
+                                <a href="javascript:void(0);" class="waves-effect">Newer <span aria-hidden="true">&rarr;</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #END# Align Links -->
+    <!-- Optional Disabled State -->
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>
+                        OPTIONAL DISABLED STATE
+                        <small>Pager links also use the general <code>.disabled</code> utility class from the pagination.</small>
+                    </h2>
+                    <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="javascript:void(0);">Action</a></li>
+                                <li><a href="javascript:void(0);">Another action</a></li>
+                                <li><a href="javascript:void(0);">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <nav>
+                        <ul class="pager">
+                            <li class="previous disabled">
+                                <a href="javascript:void(0);">
+                                    <span aria-hidden="true">&larr;</span> Older
+                                </a>
+                            </li>
+                            <li class="next">
+                                <a href="javascript:void(0);" class="waves-effect">
+                                    Newer
+                                    <span aria-hidden="true">&rarr;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #END# Optional Disabled State -->
 </div>
 <!-- #END# Default Example -->
-<!-- Align Links -->
-<div class="row clearfix">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="card">
-            <div class="header">
-                <h2>
-                    ALIGNED LINKS
-                    <small>Alternatively, you can align each link to the sides:</small>
-                </h2>
-                <ul class="header-dropdown m-r--5">
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="material-icons">more_vert</i>
-                        </a>
-                        <ul class="dropdown-menu pull-right">
-                            <li><a href="javascript:void(0);">Action</a></li>
-                            <li><a href="javascript:void(0);">Another action</a></li>
-                            <li><a href="javascript:void(0);">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="body">
-                <nav>
-                    <ul class="pager">
-                        <li class="previous">
-                            <a href="javascript:void(0);" class="waves-effect"><span aria-hidden="true">&larr;</span> Older</a>
-                        </li>
-                        <li class="next">
-                            <a href="javascript:void(0);" class="waves-effect">Newer <span aria-hidden="true">&rarr;</span></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- #END# Align Links -->
-<!-- Optional Disabled State -->
-<div class="row clearfix">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="card">
-            <div class="header">
-                <h2>
-                    OPTIONAL DISABLED STATE
-                    <small>Pager links also use the general <code>.disabled</code> utility class from the pagination.</small>
-                </h2>
-                <ul class="header-dropdown m-r--5">
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <i class="material-icons">more_vert</i>
-                        </a>
-                        <ul class="dropdown-menu pull-right">
-                            <li><a href="javascript:void(0);">Action</a></li>
-                            <li><a href="javascript:void(0);">Another action</a></li>
-                            <li><a href="javascript:void(0);">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="body">
-                <nav>
-                    <ul class="pager">
-                        <li class="previous disabled">
-                            <a href="javascript:void(0);">
-                                <span aria-hidden="true">&larr;</span> Older
-                            </a>
-                        </li>
-                        <li class="next">
-                            <a href="javascript:void(0);" class="waves-effect">
-                                Newer
-                                <span aria-hidden="true">&rarr;</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- #END# Optional Disabled State -->

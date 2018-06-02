@@ -42,11 +42,11 @@ public class FormsServlet extends Viewer {
                 es.add("plugins/bootstrap-tagsinput/bootstrap-tagsinput.js");
                 es.add("plugins/nouislider/nouislider.js");
                 es.add("js/pages/forms/advanced-form-elements.js");
-                responseView(req, resp, "Basic Form Elements", "/pages/forms/advanced-form-elements.jsp", es, ec);
+                responseView(req, resp, "Advanced Form Elements", "/pages/forms/advanced-form-elements.jsp", es, ec);
                 break;
             case "/form-examples":
                 ec.add("plugins/sweetalert/sweetalert.css");
-                responseView(req, resp, "Basic Form Elements", "/pages/forms/form-examples.jsp", es, ec);
+                responseView(req, resp, "Form Examples", "/pages/forms/form-examples.jsp", es, ec);
                 break;
             case "/form-validation":
                 ec.add("plugins/sweetalert/sweetalert.css");
@@ -54,7 +54,7 @@ public class FormsServlet extends Viewer {
                 es.add("plugins/jquery-steps/jquery.steps.js");
                 es.add("plugins/sweetalert/sweetalert.min.js");
                 es.add("js/pages/forms/form-validation.js");
-                responseView(req, resp, "Basic Form Elements", "/pages/forms/form-validation.jsp", es, ec);
+                responseView(req, resp, "Form Validation", "/pages/forms/form-validation.jsp", es, ec);
                 break;
             case "/form-wizard":
                 ec.add("plugins/sweetalert/sweetalert.css");
@@ -62,13 +62,13 @@ public class FormsServlet extends Viewer {
                 es.add("plugins/jquery-steps/jquery.steps.js");
                 es.add("plugins/sweetalert/sweetalert.min.js");
                 es.add("js/pages/forms/form-wizard.js");
-                responseView(req, resp, "Basic Form Elements", "/pages/forms/form-wizard.jsp", es, ec);
+                responseView(req, resp, "Form Wizard", "/pages/forms/form-wizard.jsp", es, ec);
                 break;
             case "/editors":
                 es.add("plugins/ckeditor/ckeditor.js");
                 es.add("plugins/tinymce/tinymce.min.js");
                 es.add("js/pages/forms/editors.js");
-                responseView(req, resp, "Basic Form Elements", "/pages/forms/editors.jsp", es, ec);
+                responseView(req, resp, "Editor", "/pages/forms/editors.jsp", es, ec);
                 break;
             default:
                 req.setAttribute("code", 404);

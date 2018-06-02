@@ -96,7 +96,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="defaultModalLabel">Modal title</h4>
+                    <h4 class="modal-title" id="defaultModalLab">Modal title</h4>
                 </div>
                 <div class="modal-body">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales orci ante, sed ornare eros vestibulum ut. Ut accumsan
@@ -162,7 +162,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="defaultModalLabel">Modal title</h4>
+                    <h4 class="modal-title" id="mdModalLabel">Modal title</h4>
                 </div>
                 <div class="modal-body">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales orci ante, sed ornare eros vestibulum ut. Ut accumsan
